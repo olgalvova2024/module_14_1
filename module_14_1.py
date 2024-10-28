@@ -13,7 +13,7 @@ balance INTEGER NOT NULL
 )
 ''')
 cursor.execute('CREATE INDEX IF NOT EXISTS idx_email ON Users(email)')
-#cursor.execute('DELETE FROM Users WHERE id < 21')
+#
 
 # for i in range(1,11):
 #     cursor.execute('INSERT INTO Users(username, email, age, balance) VALUES(?,?,?,?)',
